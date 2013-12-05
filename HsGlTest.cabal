@@ -1,0 +1,19 @@
+name:                HsGlTest
+version:             0.1.0.0
+synopsis:            Test project for OpenGL and Haskell.
+-- description:         
+homepage:            http://www.hackification.com
+license:             MIT
+license-file:        LICENSE
+author:              Stu Smith
+maintainer:          stusmith1977@gmail.com
+-- copyright:           
+category:            Graphics
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable HsGlTest
+  main-is:             HsGlTest.hs
+  -- other-modules:       
+  build-depends:       base ==4.6.*
+  hs-source-dirs:      src
